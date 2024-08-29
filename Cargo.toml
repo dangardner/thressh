@@ -1,0 +1,17 @@
+[package]
+name = "thressh"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+async-ssh2-lite = { version = "0.4.7", features = ["tokio"] }
+clap = { version = "4.5.7", features = ["derive"] }
+futures = "0.3.30"
+itertools = "0.13.0"
+log = "0.4.21"
+patharg = "0.4.0"
+tokio = { version = "1.38.0", features = ["full"] }
+tokio-stream = "0.1.15"
+tracing = "0.1"
+tracing-subscriber = "0.3"
